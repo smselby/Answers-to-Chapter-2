@@ -1,0 +1,91 @@
+# Answers-to-Chapter-2
+Practice Questions
+	1.	What are the two values of the Boolean data type? How do you write them?
+Answer: True & False written with capital T & F and the rest lowercase.
+	2.	What are the three Boolean operators?
+ Answer: and, or and not
+	3.	Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+Answer: 
+True and True = True
+True and False = False
+False and True = False
+False and False = False
+True or True = True
+True or False = True
+False or True = True
+False or False = False
+not True = False
+not False = True
+	4. What do the following expressions evaluate to?
+(5 > 4) and (3 == 5) 
+Answer = False
+not (5 > 4) 
+Answer =  False
+(5 > 4) or (3 == 5) 
+Answer = True
+not ((5 > 4) or (3 == 5)) 
+Answer = False
+(True and True) and (True == False) 
+Answer = False
+(not False) or (not True) 
+Answer = True
+	4.	What are the six comparison operators?
+ Answer: ==, !=, <, >, <=, and >=
+
+	5.	What is the difference between the equal to operator and the assignment operator?
+Answer: == is the equal operator it asks if two values are the same. = is the assignment operator it assigns the value on the right int the variable on the left.
+	6.	Explain what a condition is and where you would use one.
+Answer: in an expression in a flow control statement that is evaluated to a Boolean value
+	8. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+Answer: if, if, else
+	9. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings!if anything else is stored in spam. Answer:
+spam = 3
+if spam == 1:
+   print ('Hello')
+elif spam == 2:
+   print ('Howdy')
+else:
+   print ('Greetings!') 
+	10. What can you press if your program is stuck in an infinite loop? 
+Answer: ctrl c
+	11. What is the difference between break and continue?
+Answer: break will stop outside the loop, continue will move to the start of the loop
+	12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+Answer: they all do the same thing.
+for i in range(10):
+    print(i) #prints 0-9 
+for i in range(0, 10):
+    print(i) #specifies start at 0, prints 0-9
+for i in range(0, 10, 1):
+    print(i) #specifies start at 0 increment by 1
+
+	13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+Answer:
+for i in range(11):
+    print(i)
+i = i
+while i ,= 10:
+    print(i)
+    i = i + 1
+	14. If you had a function named bacon() inside a module named spam, how would you call it after importingspam?
+Answer: spam.bacon()
+
+Extra credit: Look up the round() and abs() functions on the Internet, and find out what they do. Experiment with them in the interactive shell.
+Answer: 
+n = -818.8
+print (abs(n)) #will print 818.8 you do not need to import math for this function
+
+import math
+print (abs(n)) #same result even after import math
+print(math.floor(n)) #will print -819
+print(math.ceil(n)) #will print -818
+
