@@ -1,0 +1,12 @@
+name = 'Blue'
+age = 3000
+if name == 'Enzo':
+    print ('Hi Enzo')
+elif age < 12:
+    print ('You are not Enzo, kiddo')
+elif age > 2000:
+    print ('Unlike you, Enzo is not an undead, immortal vampire')
+elif age > 100:
+    print ('You are not Enzo, gramps.')
+elif age >= 3000:
+    print ('Lookout Enzo, Blue is going to turn you into an undead vampire.')
