@@ -1,0 +1,7 @@
+import sys
+while True:
+    print('Ciao, type exit in Italian to exit.')
+    response = input()
+    if response == 'uscita':
+        sys.exit()
+    print('You typed ' + response + '.')
