@@ -1,0 +1,25 @@
+spam = 0
+while spam < 5:
+    print ('You must return here with a shrubbery or else you will never pass!')
+    spam = spam + 1
+
+
+counter = 0
+while True:
+    print ('We are the Knights Who Say... Ni!')
+    counter += 1
+    if counter == 5:
+        break
+    
+counter = 0
+while True:
+    print ('Shh! We are now the Knights Who Say Ecky-ecky-ecky-ecky-pikang-zoop-boing-goodem-zoo-owli-zhiv!')
+    counter += 1
+    if counter == 3:
+        break    
+counter = 0
+while True:
+    
+    counter += 1
+    if counter == 3:
+        break 
