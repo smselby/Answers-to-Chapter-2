@@ -1,0 +1,10 @@
+print('question 13')
+
+n = -818.8
+
+print (abs(n))
+
+import math
+print (abs(n))
+print(math.floor(n))
+print(math.ceil(n))
