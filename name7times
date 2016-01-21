@@ -1,0 +1,14 @@
+print('My name is')
+for i in range(4):
+    print('Blue Sparks seven times ' + str(i) + ')')
+
+total = 0
+for num in range(7):
+    total = total + num
+print('total 0-3')
+
+print('My name is')
+i = 0
+while i < 7:
+    print('Blue Sparks seven times ' + str(i) + ')')
+    i = i + 1
