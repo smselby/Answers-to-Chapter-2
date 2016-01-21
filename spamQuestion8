@@ -1,0 +1,18 @@
+spam = 10
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+
+
+spam = 0
+while spam < 5:
+    spam = spam + 1
+    if spam == 9:
+        continue
+    print ('spam is ' + str(spam))
+    
