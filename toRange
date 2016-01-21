@@ -1,0 +1,12 @@
+for i in range(7, 18):
+    print(i)
+print('stop')
+print('start')
+for i in range(0, 17, 2):
+    print(i)
+print('stop')
+print('start')
+
+for i in range(10, -1, -1):
+    print(i)
+print('stop')
